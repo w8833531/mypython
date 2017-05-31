@@ -1,0 +1,211 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+Animal	class/animal.py	/^class Animal(object):$/;"	c
+Cat	class/animal.py	/^class Cat(Animal):$/;"	c
+Chain	class/__def__.py	/^class Chain(object):$/;"	c
+Dict	error_debug_test/mydict.py	/^class Dict(dict):$/;"	c
+Dict	error_debug_test/mydict_doctest.py	/^class Dict(dict):$/;"	c
+Dog	class/animal.py	/^class Dog(Animal):$/;"	c
+Fib	class/__def__.py	/^class Fib(object):$/;"	c
+GraduateStudent	class/__slots.py	/^class GraduateStudent(Student):$/;"	c
+GraduateStudent1	class/__slots.py	/^class GraduateStudent1(Student):$/;"	c
+Hello	class/type.py	/^Hello = type('Hello', (object,), dict(hello=fn)) #创建Hello class$/;"	v
+L	function/list_comprehension.py	/^L = ['Hello', 'World', 'IBM', 'Apple']$/;"	v
+L	function/list_comprehension.py	/^L=[]$/;"	v
+L	function/section.py	/^L = ['Michael', 'Sarah', 'Tracy', 'Bob', 'Jack']$/;"	v
+L	function/section.py	/^L = range(100)$/;"	v
+Larry	class/student.py	/^Larry = Student('Larry Wu', 87)$/;"	v
+QueueManager	multiprocessing_multithreading/taskmanager.py	/^class QueueManager(BaseManager):$/;"	c
+QueueManager	multiprocessing_multithreading/taskworker.py	/^class QueueManager(BaseManager):$/;"	c
+Student	IO/json1.py	/^class Student(object):$/;"	c
+Student	class/__def__.py	/^class Student(object):$/;"	c
+Student	class/__slots.py	/^class Student(object):$/;"	c
+Student	class/property.py	/^class Student(object):$/;"	c
+Student	class/student.py	/^class Student(object):$/;"	c
+TestDict	error_debug_test/mydict_test.py	/^class TestDict(unittest.TestCase):$/;"	c
+__author__	modules/hello.py	/^__author__ = 'Larry Wu'$/;"	v
+__call__	class/__def__.py	/^    def __call__(self):$/;"	m	class:Student	file:
+__getattr__	class/__def__.py	/^    def __getattr__(self, path):$/;"	m	class:Chain	file:
+__getattr__	error_debug_test/mydict.py	/^    def __getattr__(self, key):$/;"	m	class:Dict	file:
+__getattr__	error_debug_test/mydict_doctest.py	/^    def __getattr__(self, key):$/;"	m	class:Dict	file:
+__getitem__	class/__def__.py	/^    def __getitem__(self,n):$/;"	m	class:Fib	file:
+__init__	IO/json1.py	/^    def __init__(self, name, age, score):$/;"	m	class:Student
+__init__	class/__def__.py	/^    def __init__(self):$/;"	m	class:Fib
+__init__	class/__def__.py	/^    def __init__(self, name):$/;"	m	class:Student
+__init__	class/__def__.py	/^    def __init__(self,path=''):$/;"	m	class:Chain
+__init__	class/student.py	/^    def __init__(self, name, score):$/;"	m	class:Student
+__init__	error_debug_test/mydict.py	/^    def __init__(self, **kw):$/;"	m	class:Dict
+__init__	error_debug_test/mydict_doctest.py	/^    def __init__(self, **kw):$/;"	m	class:Dict
+__iter__	class/__def__.py	/^    def __iter__(self):$/;"	m	class:Fib	file:
+__repr__	class/__def__.py	/^    __repr__ = __str__$/;"	v	class:Student
+__setattr__	error_debug_test/mydict.py	/^    def __setattr__(self, key, value):$/;"	m	class:Dict	file:
+__setattr__	error_debug_test/mydict_doctest.py	/^    def __setattr__(self, key, value):$/;"	m	class:Dict	file:
+__slots__	class/__slots.py	/^    __slots__ = ('name', 'age')$/;"	v	class:Student
+__slots__	class/__slots.py	/^    __slots__ = ()$/;"	v	class:GraduateStudent1
+__str__	class/__def__.py	/^    def __str__(self):$/;"	m	class:Chain	file:
+__str__	class/__def__.py	/^    def __str__(self):$/;"	m	class:Student	file:
+_private_1	modules/hello.py	/^def _private_1(name):$/;"	f
+_private_2	modules/hello.py	/^def _private_2(name):$/;"	f
+_spider	function/decorator.py	/^def _spider(func, text=''):$/;"	f
+a	class/animal.py	/^a = list() # a是list类型$/;"	v
+a	function/dict.py	/^a = d$/;"	v
+aa	class/animal.py	/^aa = type(int)==type(str)==types.TypeType$/;"	v
+aa	recursion.php	/^    function aa($n){$/;"	f
+age	class/property.py	/^    def age(self):$/;"	m	class:Student
+age	function/if.py	/^age=int(age)$/;"	v
+age	function/if.py	/^age=raw_input('Please input you age:')$/;"	v
+b	class/animal.py	/^b = Animal() # b是Animal类型$/;"	v
+bar	error_debug_test/try.py	/^def bar(s):$/;"	f
+bart	class/student.py	/^bart = Student('Bart Simpson', 97)$/;"	v
+c	class/__def__.py	/^c = Chain()$/;"	v
+c	class/animal.py	/^c = Dog() # c是Dog类型$/;"	v
+c	function/dict.py	/^c = {'Larry': 95, 'Abe': 97, 'Lee': 99}$/;"	v
+cacl	function/def.py	/^def cacl(*numbers):$/;"	f
+cat	class/animal.py	/^cat = Cat()$/;"	v
+cmp_ignore_case	function/sorted.py	/^def cmp_ignore_case(s1, s2):$/;"	f
+d	IO/json1.py	/^d = dict(name='小红', age=20, score=88)$/;"	v
+d	class/__slots.py	/^d = GraduateStudent1()$/;"	v
+d	function/dict.py	/^d = {'Michael': 95, 'Bob': 75, 'Tracy': 85}$/;"	v
+d	function/for.py	/^d = {'a': 1, 'b': 2, 'c': 3}$/;"	v
+d	function/list_comprehension.py	/^d = {'x': 'A', 'y': 'B', 'z': 'C' }$/;"	v
+decorator	function/decorator.py	/^    def decorator(func):$/;"	f	function:log
+dog	class/animal.py	/^dog = Dog()$/;"	v
+enroll	function/def.py	/^def enroll(name, gender, age=6, city='Beijing'):$/;"	f
+err	cacl.py	/^        err = err + 1$/;"	v
+err	cacl.py	/^err= 0$/;"	v
+f	IO/file.py	/^    f = open('.\/aaa.txt', 'r')$/;"	v
+f	class/__def__.py	/^f = Fib()$/;"	v
+f	function/map.py	/^def f(x):$/;"	f
+f	function/return_func.py	/^f = lazy_sum(1, 3, 5, 7, 9)$/;"	v
+fact	function/recursion.py	/^def fact(n):$/;"	f
+fib	function/generator.py	/^def fib(max):$/;"	f
+fn	class/type.py	/^def fn(self, name='world'): #先定义一个函数$/;"	f
+foo	error_debug_test/try.py	/^def foo(s):$/;"	f
+fx	function/reduce.py	/^def fx(x,y):$/;"	f
+fy	function/reduce.py	/^def fy(x,y):$/;"	f
+g	class/__slots.py	/^g = GraduateStudent()$/;"	v
+g	function/generator.py	/^g = ( x * x for x in range(10))$/;"	v
+get_grade	class/student.py	/^    def get_grade(self):$/;"	m	class:Student
+get_name	class/student.py	/^    def get_name(self):$/;"	m	class:Student
+get_score	class/student.py	/^    def get_score(self):$/;"	m	class:Student
+h	class/type.py	/^h = Hello()$/;"	v
+input_result	cacl.py	/^        input_result = raw_input(string)$/;"	v
+input_result	cacl.py	/^    input_result = raw_input(string)$/;"	v
+is_odd	function/filter.py	/^def is_odd(n):$/;"	f
+is_space	function/filter.py	/^def is_space(s):$/;"	f
+l	IO/os.py	/^l = search('aaa')$/;"	v
+lazy_sum	function/return_func.py	/^def lazy_sum(*args):$/;"	f
+local_school	multiprocessing_multithreading/threadinglocal.py	/^local_school = threading.local()$/;"	v
+log	function/decorator.py	/^def log(func):$/;"	f
+log	function/decorator.py	/^def log(text):$/;"	f
+log1	function/decorator.py	/^def log1(*args, **kwargs):$/;"	f
+long_time_task	multiprocessing_multithreading/multiprocessing1.py	/^def long_time_task(name):$/;"	f
+long_time_task	multiprocessing_multithreading/multiprocesspool.py	/^def long_time_task(name):$/;"	f
+long_time_task	multiprocessing_multithreading/multiprocesspool1.py	/^def long_time_task(name):$/;"	f
+loop	multiprocessing_multithreading/multiprocessing_all.py	/^def loop():$/;"	f
+loop	multiprocessing_multithreading/multithreading.py	/^def loop():$/;"	f
+loop	multiprocessing_multithreading/multithreading1.py	/^def loop():$/;"	f
+m	multiprocessing_multithreading/taskworker.py	/^m = QueueManager(address=(server_addr, 5000), authkey='abc')$/;"	v
+m	re/re.py	/^m = re.match(r'^(0[0-9]|1[0-9]|2[0-3]|[0-9])\\:(0[0-9]|1[0-9]|2[0-9]|3[0-9]|4[0-9]|5[0-9]|[0-9])\\:(0[0-9]|1[0-9]|2[0-9]|3[0-9]|4[0-9]|5[0-9]|[0-9])$', t)$/;"	v
+m	re/re.py	/^m = re.match(r'^(\\d{3})-(\\d{3,8})$', '010-12345678')$/;"	v
+main	error_debug_test/try.py	/^def main():$/;"	f
+manager	multiprocessing_multithreading/taskmanager.py	/^manager = QueueManager(address=('', 5000), authkey='abc')$/;"	v
+move	function/def.py	/^def move(x, y, step, angle=0):$/;"	f
+my_abs	function/def.py	/^def my_abs(x):$/;"	f
+n	error_debug_test/try.py	/^n = int(s)$/;"	v
+n	multiprocessing_multithreading/taskmanager.py	/^    n = random.randint(0, 10000)$/;"	v	class:QueueManager
+n	multiprocessing_multithreading/taskworker.py	/^        n = task.get(timeout=1)$/;"	v	class:QueueManager
+name	function/hello.py	/^name=raw_input(u'请输入姓名:'.encode('utf-8')).decode('utf-8')$/;"	v
+names	function/for.py	/^names = ['Michael', 'Bob', 'Tracy']$/;"	v
+next	class/__def__.py	/^    def next(self):$/;"	m	class:Fib
+now	function/decorator.py	/^def now(*args, **kw):$/;"	f
+now	function/decorator.py	/^now = log('execute')(now)$/;"	v
+now	function/decorator.py	/^now = log(now)$/;"	v
+now1	function/decorator.py	/^def now1(*args, **kw):$/;"	f
+num	cacl.py	/^num=100$/;"	v
+num	function/list.py	/^num = len(tech_member)$/;"	v
+num_list	function/sorted.py	/^num_list = [36, 5, 12, 9, 21]$/;"	v
+ok	cacl.py	/^        ok = ok + 1$/;"	v
+ok	cacl.py	/^ok= 0$/;"	v
+p	multiprocessing_multithreading/multiprocessing1.py	/^p = Pool()$/;"	v
+p	multiprocessing_multithreading/multiprocessing1.py	/^p = Process(target=run_proc, args=('test',))$/;"	v
+p	multiprocessing_multithreading/multiprocessing_all.py	/^p = Pool()$/;"	v
+p	multiprocessing_multithreading/multiprocesspool.py	/^p = Pool()$/;"	v
+p	multiprocessing_multithreading/multiprocesspool1.py	/^p = Pool()$/;"	v
+person	function/def.py	/^def person(name, age, **kw):$/;"	f
+pid	multiprocessing_multithreading/multiprocessing1.py	/^    pid = os.fork()$/;"	v
+power	function/def.py	/^def power(x, n=2):$/;"	f
+pr	multiprocessing_multithreading/multiprocessing1.py	/^pr = Process(target=read, args=(q,))$/;"	v
+print_score	class/student.py	/^    def print_score(self):$/;"	m	class:Student
+process_student	multiprocessing_multithreading/threadinglocal.py	/^def process_student():$/;"	f
+process_thread	multiprocessing_multithreading/threadinglocal.py	/^def process_thread(name):$/;"	f
+prod	function/reduce.py	/^def prod(num_list):$/;"	f
+pw	multiprocessing_multithreading/multiprocessing1.py	/^pw = Process(target=write, args=(q,))$/;"	v
+q	multiprocessing_multithreading/multiprocessing1.py	/^q = Queue()$/;"	v
+r	error_debug_test/try.py	/^    r = 10 \/ 0$/;"	v
+r	error_debug_test/try.py	/^    r = 10 \/ int('a')$/;"	v
+r	multiprocessing_multithreading/taskmanager.py	/^    r = result.get(timeout=10)$/;"	v
+re_telephone	re/re.py	/^re_telephone = re.compile(r'(\\d{3})-(\\d{3,8})')$/;"	v
+read	multiprocessing_multithreading/multiprocessing1.py	/^def read(q):$/;"	f
+result	multiprocessing_multithreading/taskmanager.py	/^result = manager.get_result_queue()$/;"	v
+result	multiprocessing_multithreading/taskworker.py	/^result = m.get_result_queue()$/;"	v
+result_queue	multiprocessing_multithreading/taskmanager.py	/^result_queue = Queue.Queue()$/;"	v
+reversed_cmp	function/sorted.py	/^def reversed_cmp(x, y):$/;"	f
+run	class/animal.py	/^    def run(self):$/;"	m	class:Animal
+run	class/animal.py	/^    def run(self):$/;"	m	class:Cat
+run	class/animal.py	/^    def run(self):$/;"	m	class:Dog
+run_proc	multiprocessing_multithreading/multiprocessing1.py	/^def run_proc(name):$/;"	f
+s	IO/json1.py	/^s = Student('小红', 20, 88)$/;"	v
+s	class/__def__.py	/^s = Student('Larry')$/;"	v
+s	class/__slots.py	/^s = Student()$/;"	v
+s	class/property.py	/^s = Student()$/;"	v
+s	error_debug_test/try.py	/^s = '0'$/;"	v
+s2	class/__slots.py	/^s2 = Student()$/;"	v
+s_list	function/sorted.py	/^s_list = ['bob', 'about', 'Zoo', 'Credit']$/;"	v
+score	class/property.py	/^    def score(self):$/;"	m	class:Student
+score	class/property.py	/^    def score(self, value):$/;"	m	class:Student
+search	IO/os.py	/^def search(name, path='.'):$/;"	f
+server_addr	multiprocessing_multithreading/taskworker.py	/^server_addr = '127.0.0.1'$/;"	v
+setUp	error_debug_test/mydict_test.py	/^    def setUp(self):$/;"	m	class:TestDict
+set_age	class/__slots.py	/^def set_age(self, age):$/;"	f
+set_name	class/student.py	/^    def set_name(self, name):$/;"	m	class:Student
+set_score	class/__slots.py	/^def set_score(self, score):$/;"	f
+set_score	class/student.py	/^    def set_score(self, score):$/;"	m	class:Student
+start	cacl.py	/^    start = time.time()$/;"	v
+string	cacl.py	/^        string = string + input_result$/;"	v
+string	cacl.py	/^    string = str(i)+':             '+str(x)+' + '+str(y)+' = '$/;"	v
+string_list	cacl.py	/^string_list=[]$/;"	v
+string_list	function/map.py	/^string_list = ['adam', 'LISA', 'barT']$/;"	v
+student2dict	IO/json1.py	/^def student2dict(std):$/;"	f
+sum	function/for.py	/^    sum = sum + x$/;"	v
+sum	function/for.py	/^sum=0$/;"	v
+sum	function/reduce.py	/^def sum(num_list):$/;"	f
+sum	function/return_func.py	/^    def sum():$/;"	f	function:lazy_sum
+t	multiprocessing_multithreading/multithreading.py	/^t = threading.Thread(target=loop)$/;"	v
+t	multiprocessing_multithreading/multithreading1.py	/^    t = threading.Thread(target=loop)$/;"	v
+t	re/re.py	/^t = '19:05:30'$/;"	v
+task	multiprocessing_multithreading/taskmanager.py	/^task = manager.get_task_queue()$/;"	v
+task	multiprocessing_multithreading/taskworker.py	/^task = m.get_task_queue()$/;"	v
+task_queue	multiprocessing_multithreading/taskmanager.py	/^task_queue = Queue.Queue()$/;"	v
+tearDown	error_debug_test/mydict_test.py	/^    def tearDown(self):$/;"	m	class:TestDict
+tech_member	function/list.py	/^tech_member = ['Wu', 'Chen', 'Guan','Zhang'] $/;"	v
+tech_member_it	function/list.py	/^tech_member_it = ['Yi', 'Shun']$/;"	v
+test	modules/hello.py	/^def test():$/;"	f
+test_attr	error_debug_test/mydict_test.py	/^    def test_attr(self):$/;"	m	class:TestDict
+test_attrerror	error_debug_test/mydict_test.py	/^    def test_attrerror(self):$/;"	m	class:TestDict
+test_init	error_debug_test/mydict_test.py	/^    def test_init(self):  #以test开头的方法就是测试方法，不以test开头的方法不被认为是测试方法，测试的时候不会被执行。$/;"	m	class:TestDict
+test_key	error_debug_test/mydict_test.py	/^    def test_key(self):$/;"	m	class:TestDict
+test_keyerror	error_debug_test/mydict_test.py	/^    def test_keyerror(self):$/;"	m	class:TestDict
+use_time	cacl.py	/^    use_time = time.time() - start$/;"	v
+wrapper	function/decorator.py	/^        def wrapper(*args, **kw):$/;"	f	function:log.decorator
+wrapper	function/decorator.py	/^    def wrapper(*args, **kw):$/;"	f	function:_spider
+wrapper	function/decorator.py	/^    def wrapper(*args, **kw):$/;"	f	function:log
+write	multiprocessing_multithreading/multiprocessing1.py	/^def write(q):$/;"	f
+x	cacl.py	/^    x = random.randint(1,9)$/;"	v
+xx	function/def.py	/^xx=float(raw_input(u'请输入一个自然数:'.encode('utf-8')).decode('utf-8'))$/;"	v
+y	cacl.py	/^    y = random.randint(3,9)$/;"	v
+z	cacl.py	/^    z = x + y$/;"	v
